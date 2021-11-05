@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-theme-cola",
+  "version": "1.0.0",
+  "description": "A theme for vuepress",
+  "main": "theme/index.js",
+  "files": [
+    "theme/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev doc",
+    "build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdswyda/vuepress-theme-cola.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdswyda/vuepress-theme-cola/issues"
+  },
+  "homepage": "https://github.com/cdswyda/vuepress-theme-cola#readme",
+  "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.2"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
